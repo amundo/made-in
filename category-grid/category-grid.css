@@ -1,0 +1,16 @@
+category-grid form {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 2em;
+
+}
+
+category-grid button {
+  /* aspect-ratio: 1/1; */
+  height: 100%;
+}
+
+category-grid button .emoji {
+  font-size: 4rem;
+}
+
