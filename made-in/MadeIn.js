@@ -1,11 +1,11 @@
-import {LeaderBoard} from '../leader-board/LeaderBoard.js'
+import {ProductList} from '../product-list/ProductList.js'
 import {AddProduct} from '../add-product/AddProduct.js'
 
 class MadeIn extends HTMLElement {
   constructor(){
     super()
     this.innerHTML = `
-    <leader-board></leader-board>
+    <product-list></product-list>
     <add-product> </add-product>
   `
     this.listen()

@@ -1,12 +1,13 @@
-class LeaderBoard extends HTMLElement {
+class ProductList extends HTMLElement {
   constructor(){
     super()
     this.innerHTML = `
-<table>
+    <table>
 <tr><td>kitchen</td><td>spoon</td><td>CHINA</td><td>Yesterday</td></tr>
 <tr><td>kitchen</td><td>spoon</td><td>CHINA</td><td>Yesterday</td></tr>
 </table>
-    `    
+
+`
     this.listen()
   }
 
@@ -54,5 +55,5 @@ class LeaderBoard extends HTMLElement {
   }
 }
 
-export {LeaderBoard}
-customElements.define('leader-board', LeaderBoard)
+export {ProductList}
+customElements.define('product-list', ProductList)

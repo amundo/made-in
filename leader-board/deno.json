@@ -1,5 +1,0 @@
-{
-  "tasks": {
-    "build": "pandoc -f markdown -t html --section-divs --css leader-board-docs.css --template=template.html -o leader-board-docs.html leader-board-docs.md"
-  }
-}
