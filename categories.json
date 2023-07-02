@@ -1,202 +1,156 @@
 [
   {
-    "name": "Appliances",
-    "emoji": "🏠"
+  "name": "Appliances",
+  "emoji": "🏠"
   },
   {
-    "name": "Art Supplies",
-    "emoji": "🎨"
+  "name": "Art",
+  "emoji": "🎨"
   },
   {
-    "name": "Car",
-    "emoji": "🚗"
+  "name": "Car",
+  "emoji": "🚗"
   },
   {
-    "name": "Bath and Body",
-    "emoji": "🛀"
+  "name": "Bathroom",
+  "emoji": "🛀"
   },
   {
-    "name": "Beauty and Personal Care",
-    "emoji": "💄"
+  "name": "Books",
+  "emoji": "📚"
   },
   {
-    "name": "Books",
-    "emoji": "📚"
+  "name": "Camping",
+  "emoji": "🏕️"
   },
   {
-    "name": "Camping Gear",
-    "emoji": "🏕️"
+  "name": "Clothing",
+  "emoji": "👕"
   },
   {
-    "name": "Clothing",
-    "emoji": "👕"
+  "name": "Computers",
+  "emoji": "💻"
   },
   {
-    "name": "Computers",
-    "emoji": "💻"
+  "name": "Cycling",
+  "emoji": "🚲"
   },
   {
-    "name": "Cookware",
-    "emoji": "🍳"
+  "name": "Electronics",
+  "emoji": "📱"
   },
   {
-    "name": "Cosmetics",
-    "emoji": "💅"
+  "name": "Eyewear",
+  "emoji": "👓"
   },
   {
-    "name": "Cycling Equipment",
-    "emoji": "🚲"
+  "name": "Furniture",
+  "emoji": "🛋️"
   },
   {
-    "name": "Electronics",
-    "emoji": "📱"
+  "name": "Gardening",
+  "emoji": "🌿"
   },
   {
-    "name": "Eyewear",
-    "emoji": "👓"
+  "name": "Grocery",
+  "emoji": "🛒"
   },
   {
-    "name": "Fitness Equipment",
-    "emoji": "🏋️"
+  "name": "Haircare",
+  "emoji": "💇"
   },
   {
-    "name": "Furniture",
-    "emoji": "🛋️"
+  "name": "Exercise",
+  "emoji": "💪"
   },
   {
-    "name": "Gardening Tools",
-    "emoji": "🌿"
+  "name": "Hiking",
+  "emoji": "🥾"
   },
   {
-    "name": "Grocery",
-    "emoji": "🛒"
+  "name": "Jewelry",
+  "emoji": "💍"
   },
   {
-    "name": "Hair Care",
-    "emoji": "💇"
+  "name": "Kitchen",
+  "emoji": "🍴"
   },
   {
-    "name": "Health and Fitness",
-    "emoji": "💪"
+  "name": "Luggage",
+  "emoji": "🧳"
   },
   {
-    "name": "Hiking Gear",
-    "emoji": "🥾"
+  "name": "Music",
+  "emoji": "🎵"
   },
   {
-    "name": "Home Decor",
-    "emoji": "🖼️"
+  "name": "Office",
+  "emoji": "📎"
   },
   {
-    "name": "Jewelry",
-    "emoji": "💍"
+  "name": "Outdoors",
+  "emoji": "⛺"
   },
   {
-    "name": "Kitchenware",
-    "emoji": "🍴"
+  "name": "Food",
+  "emoji": "🦴"
   },
   {
-    "name": "Luggage",
-    "emoji": "🧳"
+  "name": "Supplies",
+  "emoji": "🐾"
   },
   {
-    "name": "Music Instruments",
-    "emoji": "🎵"
+  "name": "Pets",
+  "emoji": "🐶"
   },
   {
-    "name": "Musical Instruments",
-    "emoji": "🎸"
+  "name": "Printers",
+  "emoji": "🖨️"
   },
   {
-    "name": "Office Furniture",
-    "emoji": "🪑"
+  "name": "School",
+  "emoji": "🎒"
   },
   {
-    "name": "Office Supplies",
-    "emoji": "📎"
+  "name": "Shoes",
+  "emoji": "👞"
   },
   {
-    "name": "Outdoor Furniture",
-    "emoji": "🏖️"
+  "name": "Sports",
+  "emoji": "⚽"
   },
   {
-    "name": "Outdoor Gear",
-    "emoji": "⛺"
+  "name": "Sunglasses",
+  "emoji": "🕶️"
   },
   {
-    "name": "Party Supplies",
-    "emoji": "🎉"
+  "name": "Beverages",
+  "emoji": "☕"
   },
   {
-    "name": "Perfumes",
-    "emoji": "🌸"
+  "name": "Tools",
+  "emoji": "🔧"
   },
   {
-    "name": "Pet Food",
-    "emoji": "🦴"
+  "name": "Toys",
+  "emoji": "🧸"
   },
   {
-    "name": "Pet Supplies",
-    "emoji": "🐾"
+  "name": "TV",
+  "emoji": "📺"
   },
   {
-    "name": "Pet Toys",
-    "emoji": "🐶"
+  "name": "Games",
+  "emoji": "🎮"
   },
   {
-    "name": "Printers",
-    "emoji": "🖨️"
+  "name": "Watches",
+  "emoji": "⌚"
   },
   {
-    "name": "School Supplies",
-    "emoji": "🎒"
-  },
-  {
-    "name": "Shoes",
-    "emoji": "👞"
-  },
-  {
-    "name": "Skin Care",
-    "emoji": "🧴"
-  },
-  {
-    "name": "Sports Equipment",
-    "emoji": "⚽"
-  },
-  {
-    "name": "Stationery",
-    "emoji": "🖋️"
-  },
-  {
-    "name": "Sunglasses",
-    "emoji": "🕶️"
-  },
-  {
-    "name": "Tea and Coffee",
-    "emoji": "☕"
-  },
-  {
-    "name": "Tools",
-    "emoji": "🔧"
-  },
-  {
-    "name": "Toys",
-    "emoji": "🧸"
-  },
-  {
-    "name": "TVs",
-    "emoji": "📺"
-  },
-  {
-    "name": "Video Games",
-    "emoji": "🎮"
-  },
-  {
-    "name": "Watches",
-    "emoji": "⌚"
-  },
-  {
-    "name": "Yoga Gear",
-    "emoji": "🧘"
+  "name": "Yoga",
+  "emoji": "🧘"
   }
-]
+  ]
+  
+  

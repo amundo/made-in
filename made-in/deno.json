@@ -1,0 +1,5 @@
+{
+  "tasks": {
+    "build": "pandoc -f markdown -t html --section-divs --css made-in-docs.css --template=template.html -o made-in-docs.html made-in-docs.md"
+  }
+}
