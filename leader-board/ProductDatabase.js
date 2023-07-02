@@ -6,6 +6,7 @@ class ProductDatabase {
 
   add(product) {
     this.products.push(product);
+    this.save()
   }
 
   findBy(key, value) {
@@ -13,10 +14,27 @@ class ProductDatabase {
   }
 
   remove(product) {
-    const index = this.products.indexOf(product);
-    if (index !== -1) {
-      this.products.splice(index, 1);
+    this.products = this.products
+      .filter(p => !this.areEqual(p, product));
+
+    this.save()
+  }
+
+  areEqual(product1, product2) {
+    const keys1 = Object.keys(product1);
+    const keys2 = Object.keys(product2);
+
+    if (keys1.length !== keys2.length) {
+      return false;
     }
+
+    for (let key of keys1) {
+      if (product1[key] !== product2[key]) {
+        return false;
+      }
+    }
+
+    return true;
   }
 
   save() {
