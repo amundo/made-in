@@ -1,7 +1,17 @@
 class ProductDatabase {
-  constructor() {
+  constructor({products, categories, countries}){
     // Load existing product data from localStorage
-    this.products = JSON.parse(localStorage.getItem('products')) || [];
+    this.countries = countries
+    this.categories = categories
+    this.products = products
+  }
+  
+  get data(){
+    return {
+      products: this.products,
+      countries: this.countries,
+      categories: this.categories
+    }
   }
 
   add(product) {
@@ -39,12 +49,13 @@ class ProductDatabase {
 
   save() {
     // Save updated product data to localStorage
-    localStorage.setItem('products', JSON.stringify(this.products));
+
+    localStorage.setItem('madeIn', JSON.stringify(this.data));
   }
 
   export() {
     // Return a deep copy of the product data
-    return JSON.parse(JSON.stringify(this.products));
+    return JSON.parse(JSON.stringify(this.data));
   }
 }
 

@@ -1,0 +1,16 @@
+[
+  {
+    "name": "plastic bunny",
+    "category": "toys",
+    "countries": [
+      "PT"
+    ]
+  },
+  {
+    "name": "fancy cup",
+    "category": "kitchen",
+    "countries": [
+      "IT"
+    ]
+  }
+]

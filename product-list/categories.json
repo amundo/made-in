@@ -1,0 +1,154 @@
+[
+  {
+    "name": "appliances",
+    "emoji": "🏠"
+  },
+  {
+    "name": "art",
+    "emoji": "🎨"
+  },
+  {
+    "name": "car",
+    "emoji": "🚗"
+  },
+  {
+    "name": "bathroom",
+    "emoji": "🛀"
+  },
+  {
+    "name": "books",
+    "emoji": "📚"
+  },
+  {
+    "name": "camping",
+    "emoji": "🏕️"
+  },
+  {
+    "name": "clothing",
+    "emoji": "👕"
+  },
+  {
+    "name": "computers",
+    "emoji": "💻"
+  },
+  {
+    "name": "cycling",
+    "emoji": "🚲"
+  },
+  {
+    "name": "electronics",
+    "emoji": "📱"
+  },
+  {
+    "name": "eyewear",
+    "emoji": "👓"
+  },
+  {
+    "name": "furniture",
+    "emoji": "🛋️"
+  },
+  {
+    "name": "gardening",
+    "emoji": "🌿"
+  },
+  {
+    "name": "grocery",
+    "emoji": "🛒"
+  },
+  {
+    "name": "haircare",
+    "emoji": "💇"
+  },
+  {
+    "name": "exercise",
+    "emoji": "💪"
+  },
+  {
+    "name": "hiking",
+    "emoji": "🥾"
+  },
+  {
+    "name": "jewelry",
+    "emoji": "💍"
+  },
+  {
+    "name": "kitchen",
+    "emoji": "🍴"
+  },
+  {
+    "name": "luggage",
+    "emoji": "🧳"
+  },
+  {
+    "name": "music",
+    "emoji": "🎵"
+  },
+  {
+    "name": "office",
+    "emoji": "📎"
+  },
+  {
+    "name": "outdoors",
+    "emoji": "⛺"
+  },
+  {
+    "name": "food",
+    "emoji": "🦴"
+  },
+  {
+    "name": "supplies",
+    "emoji": "🐾"
+  },
+  {
+    "name": "pets",
+    "emoji": "🐶"
+  },
+  {
+    "name": "printers",
+    "emoji": "🖨️"
+  },
+  {
+    "name": "school",
+    "emoji": "🎒"
+  },
+  {
+    "name": "shoes",
+    "emoji": "👞"
+  },
+  {
+    "name": "sports",
+    "emoji": "⚽"
+  },
+  {
+    "name": "sunglasses",
+    "emoji": "🕶️"
+  },
+  {
+    "name": "beverages",
+    "emoji": "☕"
+  },
+  {
+    "name": "tools",
+    "emoji": "🔧"
+  },
+  {
+    "name": "toys",
+    "emoji": "🧸"
+  },
+  {
+    "name": "tv",
+    "emoji": "📺"
+  },
+  {
+    "name": "games",
+    "emoji": "🎮"
+  },
+  {
+    "name": "watches",
+    "emoji": "⌚"
+  },
+  {
+    "name": "yoga",
+    "emoji": "🧘"
+  }
+]

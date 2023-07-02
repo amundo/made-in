@@ -1,20 +1,16 @@
+import {ProductDatabase} from "./ProductDatabase.js"
+import {loadData} from './load-data.js'
+
+
+let database = loadData()
+
 class ProductList extends HTMLElement {
   constructor(){
     super()
-    this.innerHTML = `
-    <table>
-<tr><td>kitchen</td><td>spoon</td><td>CHINA</td><td>Yesterday</td></tr>
-<tr><td>kitchen</td><td>spoon</td><td>CHINA</td><td>Yesterday</td></tr>
-</table>
-
-`
+    this.productDatabase = new ProductDatabase(database)
+    this.innerHTML = ` <table> </table> `
+    this.render()
     this.listen()
-  }
-
-  async fetch(url){
-    let response = await fetch(url)
-    let data = await response.json()
-    this.data = data
   }
 
   connectedCallback(){
@@ -31,23 +27,35 @@ class ProductList extends HTMLElement {
     }
   }
 
-  /*
-  set data(data){
-    this.whatever = data.whatever
-    this.metadata = data.metadata
+  get data(){
+    return this.productDatabase
+  }
+
+  add(product){
+    this.productDatabase.add(product)
     this.render()
   }
 
-  get data(){
-    return {
-      whatever: this.whatever,
-      metadata: this.metadata
-    }
-  }
-  */
-
   render(){
-    // edit .innerHTML here
+    let table = this.querySelector('table')
+    table.innerHTML = `
+      <tr>
+        <th>Name</th>
+        <th>Category</th>
+        <th>Country</th>
+      </tr>
+    `
+    this.data.products.forEach(product => {
+      let tr = document.createElement("tr")
+      tr.classList.add("product")
+      tr.innerHTML = `
+        <td>${product.name}</td>
+        <td>${product.category}</td>
+        <td>${product.countries.join(", ")}</td>
+        `
+      table
+        .append(tr)
+    })
   }
 
   listen(){
