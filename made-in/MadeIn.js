@@ -31,21 +31,6 @@ class MadeIn extends HTMLElement {
     }
   }
 
-  /*
-  set data(data){
-    this.whatever = data.whatever
-    this.metadata = data.metadata
-    this.render()
-  }
-
-  get data(){
-    return {
-      whatever: this.whatever,
-      metadata: this.metadata
-    }
-  }
-  */
-
   render(){
     // edit .innerHTML here
   }
